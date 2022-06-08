@@ -208,6 +208,7 @@ body {
 
   border: 2px solid var(--accent-color);
   border-radius: 2px;
+  background-color: var(--accent-color);
 
   transform: scaleX(0);
 
