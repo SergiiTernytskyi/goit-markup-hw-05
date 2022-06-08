@@ -143,6 +143,10 @@ body {
 }
 
 /* ---------------------Header----------------------- */
+.page-header {
+  border-bottom: 1px solid var(--header-border-color);
+}
+
 .main-nav {
   display: flex;
   align-items: center;
@@ -329,6 +333,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 
   height: 120px;
   background-color: var(--third-bg-color);
@@ -381,8 +386,9 @@ body {
   position: absolute;
   left: 0;
   bottom: 0;
-
-  padding: 27px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   width: 370px;
   height: 70px;
